@@ -1,30 +1,38 @@
 # DOOMAZE
 
-An early-development 2.5D shooter in the style of the classic 90s games, built with HTML, CSS and JavaScript on a `<canvas>`. Find your way through the maze, deal with what's in there, and reach the exit.
+An early-stage, desktop-only 2.5D maze shooter built with HTML canvas and JavaScript.
 
-**Play it:** https://crouswebco-max.github.io/doomaze/ (on a computer, with a keyboard and mouse)
+## ▶ [Play it here](https://crouswebco-max.github.io/doomaze/)
 
-## Controls
+> Best played on a computer with a keyboard and mouse. Mobile controls are not implemented yet.
 
-| Key | Action |
-|---|---|
-| **W A S D** | Move |
-| **← →** | Turn |
-| **Click** or **Space** | Shoot (hold for automatic fire) |
-| **1 2 3** | Switch weapons |
-| **R** | Restart |
+## How to play
 
-## What's in it
+- `W` `A` `S` `D` — move
+- `←` `→` — turn
+- Mouse click or `Space` — shoot; hold to keep firing
+- `1` `2` `3` — switch weapons
+- `R` — restart
 
-- **Raycasting** draws the 3D view: for each column of the screen, a ray is traced through the maze grid to find the nearest wall, and its distance sets how tall that slice of wall is drawn.
-- A **minimap** in the corner, with you, the enemies and the exit.
-- **Health, ammo and reloading**, three weapons and enemies to clear.
-- A short story intro (press Space to skip).
+## Features
 
-## Status
+- Raycasted 2.5D maze view
+- Mini-map showing the player, enemies, and exit
+- Enemies, health, ammo, reloading, and three weapons
+- A maze objective: clear the way and reach the exit
 
-Early development. It needs a keyboard and mouse, so it doesn't work on phones yet.
+## Built with
 
-## Run it locally
+HTML, CSS, JavaScript, and the Canvas API.
 
-Open `index.html` in a browser. There's nothing to install.
+## Screenshot
+
+> Screenshot placeholder: play the game on a computer, press `⌘ Shift 4`, then press `Space` and click the game window. Save the image as `doomaze-screenshot.png` on your Desktop and send it here. It should ultimately be uploaded to this repository's root folder.
+
+<!-- Once uploaded, add:
+![DOOMAZE gameplay](doomaze-screenshot.png)
+-->
+
+---
+
+Built by Juandenè · Crous Labs · [@LabsCrous on X](https://x.com/LabsCrous)
